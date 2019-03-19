@@ -1,4 +1,3 @@
-const Quiz = require("../models/quizModel");
 module.exports = function(app, Quiz) {
     app.get('/quiz', (req, res) => {
         Quiz.find()
