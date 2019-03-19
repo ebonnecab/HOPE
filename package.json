@@ -18,6 +18,7 @@
   "homepage": "https://github.com/ebonnecab/HOPE#readme",
   "dependencies": {
     "express-handlebars": "^3.0.2",
+    "mongoose": "^5.4.19",
     "nodemon": "^1.18.10"
   }
 }
