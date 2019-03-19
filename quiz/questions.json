@@ -1,10 +1,10 @@
 [{
     "question": "Which faith-based resources are you interested in?",
-    "answers": ["Christianity", "Islam", "Non-demoninational", "Not Interested"]
+    "choices": ["Christianity", "Islam", "Non-demoninational", "Not Interested"]
 }, {
     "question": "Which mental health resources would benefit you the most upon release?",
-    "answers": ["Therapy", "Support Groups", "Mentorship"]
+    "choices": ["Therapy", "Support Groups", "Mentorship"]
 }, {
     "question": "Which vocational career are you most interested in?",
-    "answers": ["Web/Technology", "Welding", "Construction", "HVAC/Electrician"]
+    "choices": ["Web/Technology", "Welding", "Construction", "HVAC/Electrician"]
 }]

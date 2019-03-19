@@ -60,7 +60,7 @@ let hopeQuiz = {
       hopeQuiz.element.innerHTML = "<h1>" + hopeQuiz.allQuestions[hopeQuiz.index]["question"] + "</h1>";
 
       //creates choices as radio input
-      for (let i = 0; i < hopeQuiz.allQuestions[hopeQuiz.index]["choices"].length; i++) {
+      for (var i = 0; i < hopeQuiz.allQuestions[hopeQuiz.index]["choices"].length; i++) {
           let choice = document.createElement('input');
           choice.type = 'radio';
           choice.className = 'choices';
