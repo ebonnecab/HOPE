@@ -1,0 +1,23 @@
+{
+  "name": "hope",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ebonnecab/HOPE.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ebonnecab/HOPE/issues"
+  },
+  "homepage": "https://github.com/ebonnecab/HOPE#readme",
+  "dependencies": {
+    "express-handlebars": "^3.0.2",
+    "nodemon": "^1.18.10"
+  }
+}
