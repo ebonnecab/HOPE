@@ -65,7 +65,7 @@ let hopeQuiz = {
           choice.type = 'radio';
           choice.className = 'choices';
           choice.value = i;
-          
+        
           // if user chose current choice as answer, mark current choice
           if ('answer' in hopeQuiz.allQuestions[hopeQuiz.index] && choice.value == hopeQuiz.allQuestions[hopeQuiz.index]['answer']) {
               choice.checked = "checked";
@@ -92,6 +92,11 @@ let hopeQuiz = {
       if (hopeQuiz.index < bookmark) {
           hopeQuiz.nextButton.style.display = 'inline';
       }
+  },
+
+    showResults: function (questions, hopeQuiz, resultsContainer) {
+        let answerContainers = hopeQuiz.querySelectorAll('.answers');
+      
   },
 
   next: function() {
