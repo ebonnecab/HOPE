@@ -1,13 +1,13 @@
 [{
-    "religion": "Christianity",
+    "type": "Christianity",
     "programs": []
 }, {
-    "religion": "Islam",
+    "type": "Islam",
     "programs": []
 }, {
-    "religion": "Non-denominational",
+    "type": "Non-denominational",
     "programs": []
 }, {
-    "religion": "None",
+    "type": "None",
     "programs": []
 }]

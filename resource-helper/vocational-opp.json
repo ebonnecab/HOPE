@@ -1,10 +1,10 @@
 [{
-    "job": "Web/Technology",
+    "type": "Web/Technology",
     "programs": []
 }, {
-    "job": "Welding",
+    "type": "Welding",
     "programs": []
 }, {
-    "job": "HVAC/Electrician",
+    "type": "HVAC/Electrician",
     "programs": []
 }]
